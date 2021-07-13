@@ -1,0 +1,174 @@
+body{
+    background-color: #f9f9f9;
+}
+
+ .menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color:grey;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .menu ul .button{
+    background-color: blueviolet;
+    border-radius: 16px;
+  }
+
+  .menu ul div{
+    float: right;
+  }
+  
+ .menu li {
+    float:left;
+  }
+  
+  .menu li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+   
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+
+  .heading{
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+    font-size: 32px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+
+.row{
+    display: flex;
+    text-align: center;
+  }
+
+.column {
+   text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  .column-heading {
+    font-size: 25px;
+    margin: 10px auto 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+#item5 {
+  grid-column: 2 / 4;
+  
+  margin: 10px;
+  border: 1px solid black;
+}
+
+#item5 .column-content{
+  vertical-align: top;
+  padding: 0 15px;
+  display: inline-block;
+  width: 45%;
+}
+
+#item5 .column-heading{
+  text-align: left;
+  padding: 15px;
+}
+
+#item5 button{
+  border-radius: 16px;
+  float: left;
+  margin: 8px;
+}
+#item5 ul{
+  list-style-type: none;
+  width: 45%;
+  display: inline-block;
+  list-style-image: url("../img/tick.png");
+}
+#item5 li{
+  color: black;
+  padding: 6px 16px;
+}
